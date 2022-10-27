@@ -17,7 +17,7 @@ share-img: /assets/img/path.jpg
  I initialized a variable x for the total speed and a variable y for the number of digimon. For each row in the 
  
  -For the average speed, I wrote this function and found that the average speed of all digimon was **120.4**.
-share-img: /assets/img/path.jpg 
+![The first one](https://github.com/amanmirzahmgithub/Art-Of-Data/blob/master/assets/img/DigimonLab.py%20-%20Visual%20Studio%20Code%2010_26_2022%201_02_39%20PM.png?raw=true)
 -Compared to the other two challenges, finding the average speed was relatively simple. 
  I initialized a variable x for the total speed and a variable y for the number of digimon. For each row in the 
  
