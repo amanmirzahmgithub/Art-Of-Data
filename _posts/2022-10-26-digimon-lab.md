@@ -20,7 +20,6 @@ tags: [labs, blog]
 -For the average speed, I decided to create 2 variables, x, which would have the total speed of all digimon, and y, which would count the number of digimon.
 Since, I knew how to find averages, I realized that x/y would result in the average speed. Compared to the other two challenges, finding the average speed was relatively simple. I already knew how to create for loops and work with lists. However, I did learn how to cast data to a variable, a float in this case, and that I needed to make variables, x and y, global.
 
- 
  ## Count digimon
  
  -This function was more challenging since I wasn't sure about specifying which attribute and value would be the parameters. The solution was actually simpler than I initially thought it would be, and I just needed to create a variable a for the type and b for the value. Then a for loop would increase a variable to be returned by 1 each time a==b. This allowed for any combination of attribute and variable of digimon to be counted. While writing this function, I realized that it was similar to mapping keys to values.
