@@ -2,9 +2,9 @@
 layout: post
 title: Digimon Lab-Art of Data
 subtitle: What I learned from working with a dataset of digimon
-cover-img: /assets/img/digimon.jpg
+cover-img: /assets/img/digimon.jpg?raw=true
 thumbnail-img: /assets/img/thumb.png
-share-img: /assets/img/digimon.jpg
+share-img: /assets/img/digimon.jpg?raw=true
 tags: [labs, blog]
 ---
 
