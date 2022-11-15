@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Research Meta Analysis: Does Red Wine Have Health Benefits?: 
+title: Research Meta Analysis: Does Red Wine Have Health Benefits?
 subtitle: Art of Data Project-Aman Mirza
 cover-img: /assets/img/wine.jpg?raw=true
 thumbnail-img: /assets/img/thumb.png
