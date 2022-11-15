@@ -1,9 +1,9 @@
 layout: post
-title: Research Meta Analysis
-subtitle: What I learned from working with a dataset of digimon
-cover-img: /assets/img/digimon.jpg?raw=true
+title: Research Meta Analysis: Does Red Wine Have Health Benefits?: 
+subtitle: 
+cover-img: /assets/img/wine.jpg?raw=true
 thumbnail-img: /assets/img/thumb.png
-share-img: /assets/img/digimon.jpg?raw=true
+share-img: /assets/img/wine.jpg?raw=true
 tags: [labs, blog]
 ---
 
