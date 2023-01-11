@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Animal Crossing Lab-Art of Data
-subtitle: What I learned from working with a dataset of digimon
+subtitle: Using APIs to store and analyze data
 cover-img: /assets/img/digimon.jpg?raw=true
 thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/digimon.jpg?raw=true
@@ -20,7 +20,7 @@ tags: [labs, blog]
 -In order to complete the lab, I needed to create a CSV with the data from the socks API. First, I opened an empty CSV in order to write the data from the socks API and wrote a line with headers for Name, Color, and .
 Then, I had to access the API by using a key in the URL, and adding the index to the end by using a while loop to access each index that had a reponse.
 Each unique URL was stored in a dictionary acsocks with requests, and the Name, Color1, and Color2 from acsocks were written into a line on the CSV as a string with commas between each.
-![CSV][https://github.com/amanmirzahmgithub/Art-Of-Data/blob/master/assets/img/CSV.jpg.png]
+![CSV](https://github.com/amanmirzahmgithub/Art-Of-Data/blob/master/assets/img/CSV.jpg.png)
 
 ## Socks with the most Variations
  
