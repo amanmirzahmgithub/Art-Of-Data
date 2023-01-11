@@ -20,7 +20,7 @@ tags: [labs, blog]
 -In order to complete the lab, I needed to create a CSV with the data from the socks API. First, I opened an empty CSV in order to write the data from the socks API and wrote a line with headers for Name, Color, and .
 Then, I had to access the API by using a key in the URL, and adding the index to the end by using a while loop to access each index that had a reponse.
 Each unique URL was stored in a dictionary acsocks with requests, and the Name, Color1, and Color2 from acsocks were written into a line on the CSV as a string with commas between each.
-![CSV](https://github.com/amanmirzahmgithub/Art-Of-Data/blob/master/assets/img/CSV.jpg.png)
+![CSV](https://github.com/amanmirzahmgithub/Art-Of-Data/blob/master/assets/img/CSV.jpg.png?raw=true)
 
 ## Socks with the most Variations
  
@@ -35,9 +35,10 @@ With this if-else loop, when a name stopped repeating the counter was stored as 
 
 | Input | Output | 
 | :------ |:--- | 
-| print("avgspeed: "+str(avgspeed())) | avgspeed: 120.40160642570281 | 
-| print(count_digimon("Type","Vaccine")) | 70 | 
-| print(team()) | ['Flamedramon', 'Wormmon', 'Tsumemon'] | 
+| socksvariations() | argyle crew socks and compression tights and frilly socks and horizontal-striped tights and Kiki & Lala socks and neon leggings and Nook Inc. socks and semi-opaque tights and sequin leggings and sheer socks and soccer socks and striped tights and tabi and ultra no-show socks and vivid leggings and vivid socks and vivid tights and wave-print socks
+8 variations | 
+| colornumber() | ['Aqua:66', 'Orange:84', 'Green:204', 'Blue:240', 'Black:390', 'Red:301', 'Beige:128', 'White:801', 'Colorful:140', 'Brown:121', 'Yellow:408', 'Purple:507', 'Gray:462', 'Pink:660'] | 
+
 
 
 ## Conclusion and Takeaways
