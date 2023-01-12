@@ -12,44 +12,62 @@ tags: [labs, blog]
 
 ## Introduction
 
--During this lab, I had to work with a dataset of digimon and write functions to sort through all of the data.
-**_I wrote one function that found the average speed, one that counted the number of digimon with a specific type and attribute, and one to build a team of digimon with 15 memory and an attack of over 300._** Some parts of this lab were challenging, however I did learn a lot as a result of this challenge. 
+During this lab, I created a dataset of Animal Crossing Socks using an API and used the dataset to answere the following questions.
+**_I wrote one function that found the average speed, one that counted the number of digimon with a specific type and attribute, and one to build a team of digimon with 15 memory and an attack of over 300._** 
 
-## Building a Dateset using an API
+## Building a Dataset using an API
 
--In order to complete the lab, I needed to create a CSV with the data from the socks API. First, I opened an empty CSV in order to write the data from the socks API and wrote a line with headers for Name, Color, and .
-Then, I had to access the API by using a key in the URL, and adding the index to the end by using a while loop to access each index that had a reponse.
-Each unique URL was stored in a dictionary acsocks with requests, and the Name, Color1, and Color2 from acsocks were written into a line on the CSV as a string with commas between each.
+In order to complete the lab, I needed to create a CSV with the data from the socks API. First, I opened an empty CSV in order to write the data from the socks API and wrote a line with headers for Name, Color 1, and Color 2 since the CSV would need to be opened with DictReader Eventually. There were issues with opening the CSV, which made me realize that if datasets was open in file explorer the directory needed to be changed.
+'''
+with open("datasets/1animalcrossing.csv", "r") as f:
+    data = csv.DictReader(f)
+    sockslist = list(data)
+'''
 ![CSV](https://github.com/amanmirzahmgithub/Art-Of-Data/blob/master/assets/img/CSV.jpg.png?raw=true)
+Then, I had to access the API by using a key in the URL, and adding the index to the end by using a while loop to access each index that had a reponse. Initially the index couldn't be concatenated to the URL so I cast it to  a string first
+![CSV](https://github.com/amanmirzahmgithub/Art-Of-Data/blob/master/assets/img/CSV.jpg.png?raw=true)
+Each unique URL was stored in a dictionary acsocks with requests, and the Name, Color1, and Color2 from acsocks were written into a line on the CSV as a string with commas between each, since these were the only variable types required for the lab questions.
+![CSV](https://github.com/amanmirzahmgithub/Art-Of-Data/blob/master/assets/img/CSV.jpg.png?raw=true)
+Creating the CSV was surprisingly challening since I had trouble accessing the API and 
 
 ## Socks with the most Variations
- 
--First I opened the CSV I had made in a different program and cast it to a list called sockslist. Then, I used a for loop to iterate through sockslist and increased a counter when a name was repeated with an if-else loop.
-With this if-else loop, when a name stopped repeating the counter was stored as m
- 
+
+First I opened the CSV I had made in a different program and cast it to a list called sockslist. Then, I used a for loop to iterate through sockslist and increased a counter when a name was repeated with an if-else statement.
+![CSV](https://github.com/amanmirzahmgithub/Art-Of-Data/blob/master/assets/img/CSV.jpg.png?raw=true)
+With this if-else statement, when a name stopped repeating the counter was stored as the max number if it was greater than the previous max and the name was replaced. If it was equal the 
+![CSV](https://github.com/amanmirzahmgithub/Art-Of-Data/blob/master/assets/img/CSV.jpg.png?raw=true)
+In addition, the counter was reset to 1 and the name was replaced by the name of the current idx
+![CSV](https://github.com/amanmirzahmgithub/Art-Of-Data/blob/master/assets/img/CSV.jpg.png?raw=true)
+The most challenging part of this question was accounting for cases where there were multiple socks with the maximum number of variations
 ## Listing Frequency of Sock Colors
  
- -This was the most difficult function to write since the task was unfamiliar compared to the other two. I didn't fully understand how I could find a combination of digimon that had the desired total values for two attributes, attack and memory. instead of just a specific one. First, I tried to use a recursive function which would keep running until the base case of a team with less than 3 digimon. This didn't work so instead I used two nested for loops with variables, x y, and z, which meant that three different rows would be looped through at once. When the first usable team was found, the function returned a list of the names of the three chosen digimon. 
+For this question, I actually created two functions with the first being nested in the other. 
+Colorcount, the first function, could use a parameter as the color to count how many times that color appeared. For any parameter color, each appearance of a color in sockslist was appended to an empty list. If color 1 and color 2 were the same, the appearance of the color was only appended once.
+![CSV](https://github.com/amanmirzahmgithub/Art-Of-Data/blob/master/assets/img/CSV.jpg.png?raw=true)
+Then, the function counted each appearance of the parameter color in sockslist. If color 1 and color 2 were the same, the appearance of the color was only counted once. 
+![CSV](https://github.com/amanmirzahmgithub/Art-Of-Data/blob/master/assets/img/CSV.jpg.png?raw=true)
+Finally, I created a list that removed any repetions of a color using set to create a list of possible colors. Using this list, the second function, colornumber returned a string for each possible color, and the returned value when the string was used as a parameter in colorcount.
+![CSV](https://github.com/amanmirzahmgithub/Art-Of-Data/blob/master/assets/img/CSV.jpg.png?raw=true)
+There could be ways to improve my code by only using 1 function and a single list, possibly by using classes instead, which would be more efficient.
+
  
 ## Results
 
 | Input | Output | 
 | :------ |:--- | 
-| socksvariations() | argyle crew socks and compression tights and frilly socks and horizontal-striped tights and Kiki & Lala socks and neon leggings and Nook Inc. socks and semi-opaque tights and sequin leggings and sheer socks and soccer socks and striped tights and tabi and ultra no-show socks and vivid leggings and vivid socks and vivid tights and wave-print socks
-8 variations | 
+| socksvariations() | argyle crew socks and compression tights and frilly socks and horizontal-striped tights and Kiki & Lala socks and neon leggings and Nook Inc. socks and semi-opaque tights and sequin leggings and sheer socks and soccer socks and striped tights and tabi and ultra no-show socks and vivid leggings and vivid socks and vivid tights and wave-print socks-8 variations | 
 | colornumber() | ['Aqua:66', 'Orange:84', 'Green:204', 'Blue:240', 'Black:390', 'Red:301', 'Beige:128', 'White:801', 'Colorful:140', 'Brown:121', 'Yellow:408', 'Purple:507', 'Gray:462', 'Pink:660'] | 
 
 
 
 ## Conclusion and Takeaways
 
--Through this lab, I learned a lot about how csvs and lists worked, which is a topic I wasn't very familiar with before. I also improved by learning more about if-else and for loops and how they worked. Overall, not all of my solutions worked the first time, so I collaborated with my classmates and researched online to find better solutions. In addition, I learned about markdown and how to create and format posts using it. Some parts of the lab were challenging, however I learned a lot thorugh having to improve my solutions.
+-Through this lab, I improved my ability to access and use APIs like understanding how to account for an index in the url. I also learned more about CSV's, especially in regards to the write method, even though I had already used them in the last lab. While all the code does work as intended, I could still improve the efficiency and organization in some ways like using key-value pairs instead of strings and using classes more instead of just lists. Overall, after creating the CSV, analyzing the data became a lot more manageable since it was more familiar than using APIs.
 
 ## Collaborators and Sources:
 
-* Nick 
-* Henry
-* Geeksforgeeks
+* Henry, Arun, Naomi
+* Geeksforgeeks, W3Schools
 
 
  
