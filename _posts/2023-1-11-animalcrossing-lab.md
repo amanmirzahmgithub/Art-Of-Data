@@ -86,37 +86,37 @@ The most challenging part of this question was accounting for cases where there 
  
 For this question, I actually created two functions with the first being nested in the other. 
 Colorcount, the first function, could use a parameter as the color to count how many times that color appeared. For any parameter color, each appearance of a color in sockslist was appended to an empty list. If color 1 and color 2 were the same, the appearance of the color was only appended once.
-    ```
-    def colornumber():
-        colordata=[]
-        #Returns the appearances of a chosen color, colorselect
-        def colorcount(colorselect):
-            colorcounter=0
-            #Appends all colors in sockslist to colordata
-            for row in sockslist:
-                colordata.append(row["Color 1"])
-                #Appends the second color if it is different
-                if row["Color 1"]!=row["Color 2"]:
-                    colordata.append(row["Color 2"])
-    ```
+```
+def colornumber():
+    colordata=[]
+    #Returns the appearances of a chosen color, colorselect
+    def colorcount(colorselect):
+        colorcounter=0
+        #Appends all colors in sockslist to colordata
+        for row in sockslist:
+            colordata.append(row["Color 1"])
+            #Appends the second color if it is different
+            if row["Color 1"]!=row["Color 2"]:
+                colordata.append(row["Color 2"])
+```
 Then, the function counted each appearance of the parameter color in sockslist. If color 1 and color 2 were the same, the appearance of the color was only counted once. The selected color and number of appearances are returned as a string
-    ```
-        #Loops through colordata and increases colorcounter by 1 each time if the color is the same as colorselect
-                if i==str(colorselect):
-                    colorcounter+=1
-        #Returns a string with the selected color and its number of appearances
-        return(str(colorselect)+":"+str(colorcounter))
-    ```
+```
+    #Loops through colordata and increases colorcounter by 1 each time if the color is the same as colorselect
+            if i==str(colorselect):
+                colorcounter+=1
+    #Returns a string with the selected color and its number of appearances
+    return(str(colorselect)+":"+str(colorcounter))
+```
 Finally, I created a list that removed any repetions of a color using 'set' to create a list of possible colors. Using this list, the second function, colornumber appended the string returned by colorcount with each possible color as a parameter.
-     ```
-    colors=[*set(colordata)]
-    #finalcolors stores the list of each color and its number of appearances
-    finalcolors=[]
-    #Appends the result of colorcount as a string for each possible color using a for loop
-    for i in colors:
-        finalcolors.append(colorcount(i))
-    print(finalcolors)
-    ```
+```
+colors=[*set(colordata)]
+#finalcolors stores the list of each color and its number of appearances
+finalcolors=[]
+#Appends the result of colorcount as a string for each possible color using a for loop
+for i in colors:
+    finalcolors.append(colorcount(i))
+print(finalcolors)
+```
 
 There could be ways to improve my code by only using 1 function and a single list, possibly by using classes instead, which would be more efficient.
 
