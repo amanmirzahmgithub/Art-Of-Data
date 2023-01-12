@@ -18,11 +18,11 @@ During this lab, I created a dataset of Animal Crossing Socks using an API and u
 ## Building a Dataset using an API
 
 In order to complete the lab, I needed to create a CSV with the data from the socks API. First, I opened an empty CSV in order to write the data from the socks API and wrote a line with headers for Name, Color 1, and Color 2 since the CSV would need to be opened with DictReader Eventually. There were issues with opening the CSV, which made me realize that if datasets was open in file explorer the directory needed to be changed.
-'''
+```
 with open("datasets/1animalcrossing.csv", "r") as f:
     data = csv.DictReader(f)
     sockslist = list(data)
-'''
+```
 ![CSV](https://github.com/amanmirzahmgithub/Art-Of-Data/blob/master/assets/img/CSV.jpg.png?raw=true)
 Then, I had to access the API by using a key in the URL, and adding the index to the end by using a while loop to access each index that had a reponse. Initially the index couldn't be concatenated to the URL so I cast it to  a string first
 ![CSV](https://github.com/amanmirzahmgithub/Art-Of-Data/blob/master/assets/img/CSV.jpg.png?raw=true)
