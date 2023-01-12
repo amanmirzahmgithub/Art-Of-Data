@@ -4,7 +4,7 @@ title: Animal Crossing Lab-Art of Data
 subtitle: Using APIs to access and analyze data
 cover-img: /assets/img/animalcrossing.jpg?raw=true
 thumbnail-img: /assets/img/thumb.png
-share-img: /assets/img/digimon.jpg?raw=true
+share-img: /assets/img/animalcrossing.jpg?raw=true
 tags: [labs, blog]
 ---
 
