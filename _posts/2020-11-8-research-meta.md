@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Research Meta Analysis: Does Red Wine Have Health Benefits?
+title: Research Meta Analysis-Does Red Wine Have Health Benefits?
 subtitle: Art of Data Project-Aman Mirza
 cover-img: /assets/img/wine.jpg?raw=true
 thumbnail-img: /assets/img/thumb.png
@@ -12,21 +12,21 @@ tags: [project, research, blog]
 
 ## Background of Study
 
--During this lab, I had to work with a dataset of digimon and write functions to sort through all of the data.
-**_I wrote one function that found the average speed, one that counted the number of digimon with a specific type and attribute, and one to build a team of digimon with 15 memory and an attack of over 300._** Some parts of this lab were challenging, however I did learn a lot as a result of this challenge. 
+-During this project, I analyzed two studies focused on the potential health benefits of red wine on cardiovascular health, specifically coronary heart disease. The study was a meta study which cited other available studies, mostly cohort studies, where participants reported alcohol consumption, mostly red wine, and researches collected data on conditions, such as HDL cholesterol levels, related to coronary heart disease, or CHD, during the study. In addition, the authors also focused on the chemical components responsible for this effect. The null hypothesis would be a lack of a relationship between moderate red wine consumption and cardiovascular health, while the alternative hypothesis would be a negative effect on cardiovascular health.
 
-## Results 
+## Results of Study
 
--For the average speed, I decided to create 2 variables, x, which would have the total speed of all digimon, and y, which would count the number of digimon.
-Since, I knew how to find averages, I realized that x/y would result in the average speed. Compared to the other two challenges, finding the average speed was relatively simple. I already knew how to create for loops and work with lists. However, I did learn how to cast data to a variable, a float in this case, and that I needed to make variables, x and y, global.
+-The study  first mentioned that red wine contained many components known as polyphenols, like reservatrol, and flavinoids which are known to prevent CHD, and have been studied individually. The study also found that red wine, which contained these chemicals, decreased HDL cholesterol and artery inflammations, risks for CHD, with a significant corellation. In addition, diet, weight, exercise, and gender were also usually taken into account for populations studies, and controlled for when the direct effect of red wine was measured. In addition,  Overall, while excessive consumption, defined as over one unit of alcohol, had increased risk of CHD, the hypothesis of moderate red wine consumption having a positive effect on CHD, was shown through these results.
 
 ## Accuracy of Study
  
- -This function was more challenging since I wasn't sure about specifying which attribute and value would be the parameters. The solution was actually simpler than I initially thought it would be, and I just needed to create a variable a for the type and b for the value. Then a for loop would increase a variable to be returned by 1 each time a==b. This allowed for any combination of attribute and variable of digimon to be counted. While writing this function, I realized that it was similar to mapping keys to values.
+ -This results of the study were likely more reliable since multiple cohort studies and evidence based on studied chemical components were used instead of just one study or type of data. Results were alsoprobably more reliable since they could be replicated. In addition, factors that could be independent variables in CHD risk, like diet, were usually controlled for in the population studies. However, not all studies were conducted on human populations, some used animal populations, meaning that the evidence may not be fully conclusive. Finally, in the funding section, the authors mentioned that there was no specific grant, so publish-or-perish can not be ruled out. Overall, the study seems somewhat reliable even though all studies can be affected by bias.
  
+## Study:
 
-## Sources:
+* https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6804046/
 
-* Nick 
+
+
 
 
