@@ -4,7 +4,7 @@ title: Descriptive Statistics Lab
 subtitle: What can we learn from Zillow's real-estate datasets?
 cover-img:
 thumbnail-img:
-share-img: /assets/img/animalcrossing.jpg?raw=true
+share-img: 
 tags: [labs, blog]
 ---
 
