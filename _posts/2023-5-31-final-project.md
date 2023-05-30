@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Research Meta Analysis-Does Red Wine Have Health Benefits?
-subtitle: Art of Data Project-Aman Mirza
+title: Time to Face the Music
+subtitle: Does social media empower musicians or is the music industry still in control?
 cover-img: /assets/img/wine.jpg?raw=true
 thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/wine.jpg?raw=true
