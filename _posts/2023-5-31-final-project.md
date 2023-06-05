@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Time to Face the Music
-subtitle: Does social media empower musicians or is the music industry still in control?
+title: Final Project
+subtitle: How and why have music sales formats changed over time?
 cover-img: /assets/img/wine.jpg?raw=true
 thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/wine.jpg?raw=true
