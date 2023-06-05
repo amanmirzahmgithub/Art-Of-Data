@@ -12,23 +12,24 @@ tags: [project, research, blog]
 
 ## Background of Project
 
--During this project, I analyzed two studies focused on the potential health benefits of red wine on cardiovascular health, specifically coronary heart disease. The study was a meta study which cited other available studies, mostly cohort studies, where participants reported alcohol consumption, mostly red wine, and researches collected data on conditions, such as HDL cholesterol levels, related to coronary heart disease, or CHD, during the study. In addition, the authors also focused on the chemical components responsible for this effect. The null hypothesis would be a lack of a relationship between moderate red wine consumption and cardiovascular health, while the alternative hypothesis would be a negative effect on cardiovascular health.
+-For my final Art of Data project, I wanted to analyze data related to the music industry, an area I’m very interested in. In particular, I wanted to focus on data related to the sales formats of music and how it is affected by economic and social trends. Recently I have noticed an increased interest in vinyl purchases and wanted to learn more about it. First, I wanted to find out whether vinyl sales had seen a significant enough increase compared to digital sales,which have previously been dominant. In addition, I wanted to try to find potential causes behind vinyl sales and what affects music purchases and their format.
 
-## Finding Datasets
+## Finding data
 
--The study  first mentioned that red wine contained many components known as polyphenols, like reservatrol, and flavinoids which are known to prevent CHD, and have been studied individually. The study also found that red wine, which contained these chemicals, decreased HDL cholesterol and artery inflammations, risks for CHD, with a significant corellation. In addition, diet, weight, exercise, and gender were also usually taken into account for populations studies, and controlled for when the direct effect of red wine was measured. In addition,  Overall, while excessive consumption, defined as over one unit of alcohol, had increased risk of CHD, the hypothesis of moderate red wine consumption having a positive effect on CHD, was shown through these results.
+-The first dataset I tried to find was one focused on historical patterns in music sales. To do this I found data measuring the trends in music formats and their purchases. While vinyl was originally the only format, and therefore the most popular, it was gradually replaced by cassettes, then CDs, before digital music purchases were finally popularized. At one point, ringtones produced more revenue for the music industry than vinyl. Another dataset I tried to find was data on vinyl sales by purchase location, especially in the recent past. This data was more difficult to find since I wanted to specifically measure the impact of purchases at local businesses, online retailers, and large chains.
 
 ## Analysis
  
- -This results of the study were likely more reliable since multiple cohort studies and evidence based on studied chemical components were used instead of just one study or type of data. Results were alsoprobably more reliable since they could be replicated. In addition, factors that could be independent variables in CHD risk, like diet, were usually controlled for in the population studies. However, not all studies were conducted on human populations, some used animal populations, meaning that the evidence may not be fully conclusive. Finally, in the funding section, the authors mentioned that there was no specific grant, so publish-or-perish can not be ruled out. Overall, the study seems somewhat reliable even though all studies can be affected by bias.
+ -The first dataset showed that recently, vinyl has had a minor resurgence overtaking cassettes and CDs. The only format that remained more popular was digital music, which makes sense because of streaming services and convenience. However, the data showed that vinyl has not reached its previous peak in sales. I was surprised, since there are a lot more options to purchase LPs and EPs at affordable prices, and they have recently become popular collectible items.
  
 ## Conclusion
  
- -This results of the study were likely more reliable since multiple cohort studies and evidence based on studied chemical components were used instead of just one study or type of data. Results were alsoprobably more reliable since they could be replicated. In addition, factors that could be independent variables in CHD risk, like diet, were usually controlled for in the population studies. However, not all studies were conducted on human populations, some used animal populations, meaning that the evidence may not be fully conclusive. Finally, in the funding section, the authors mentioned that there was no specific grant, so publish-or-perish can not be ruled out. Overall, the study seems somewhat reliable even though all studies can be affected by bias.
- 
-## Study:
+ -
+Finding data on the music industry was difficult since it was hard to find reliable and accurate sources. While I was able to find some on Kaggle and Github, I tried to find most from the official recording industry. In conclusion, this data shows that vinyl has had a resurgence, but it is still not near its peak in terms of sales. 
 
-* https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6804046/
+## Sources:
+
+*
 
 
 
